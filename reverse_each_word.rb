@@ -1,0 +1,7 @@
+def reverse_each_eord(string)
+  new_array = string.split(" ")
+  new_array.each do |string|
+  string.reverse!
+  end
+
+end
